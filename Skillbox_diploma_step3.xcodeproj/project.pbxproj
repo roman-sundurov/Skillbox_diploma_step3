@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4703504C276669DD009D5E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504B276669DD009D5E91 /* AppDelegate.swift */; };
+		4703504E276669DD009D5E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504D276669DD009D5E91 /* SceneDelegate.swift */; };
+		47035050276669DD009D5E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504F276669DD009D5E91 /* ViewController.swift */; };
+		47035053276669DD009D5E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47035051276669DD009D5E91 /* Main.storyboard */; };
+		47035055276669E0009D5E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47035054276669E0009D5E91 /* Assets.xcassets */; };
+		47035058276669E0009D5E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47035056276669E0009D5E91 /* LaunchScreen.storyboard */; };
+		47035063276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47035062276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift */; };
+		4703506D276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703506C276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift */; };
+		4703506F276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703506E276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4703505F276669E0009D5E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47035040276669DC009D5E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47035047276669DC009D5E91;
+			remoteInfo = Skillbox_diploma_step3;
+		};
+		47035069276669E1009D5E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47035040276669DC009D5E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47035047276669DC009D5E91;
+			remoteInfo = Skillbox_diploma_step3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47035048276669DD009D5E91 /* Skillbox_diploma_step3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbox_diploma_step3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4703504B276669DD009D5E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4703504D276669DD009D5E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4703504F276669DD009D5E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47035052276669DD009D5E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47035054276669E0009D5E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47035057276669E0009D5E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47035059276669E0009D5E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4703505E276669E0009D5E91 /* Skillbox_diploma_step3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skillbox_diploma_step3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47035062276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox_diploma_step3Tests.swift; sourceTree = "<group>"; };
+		47035068276669E1009D5E91 /* Skillbox_diploma_step3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skillbox_diploma_step3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4703506C276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox_diploma_step3UITests.swift; sourceTree = "<group>"; };
+		4703506E276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox_diploma_step3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47035045276669DC009D5E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4703505B276669E0009D5E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47035065276669E1009D5E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4703503F276669DC009D5E91 = {
+			isa = PBXGroup;
+			children = (
+				4703504A276669DD009D5E91 /* Skillbox_diploma_step3 */,
+				47035061276669E0009D5E91 /* Skillbox_diploma_step3Tests */,
+				4703506B276669E1009D5E91 /* Skillbox_diploma_step3UITests */,
+				47035049276669DD009D5E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47035049276669DD009D5E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47035048276669DD009D5E91 /* Skillbox_diploma_step3.app */,
+				4703505E276669E0009D5E91 /* Skillbox_diploma_step3Tests.xctest */,
+				47035068276669E1009D5E91 /* Skillbox_diploma_step3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4703504A276669DD009D5E91 /* Skillbox_diploma_step3 */ = {
+			isa = PBXGroup;
+			children = (
+				4703504B276669DD009D5E91 /* AppDelegate.swift */,
+				4703504D276669DD009D5E91 /* SceneDelegate.swift */,
+				4703504F276669DD009D5E91 /* ViewController.swift */,
+				47035051276669DD009D5E91 /* Main.storyboard */,
+				47035054276669E0009D5E91 /* Assets.xcassets */,
+				47035056276669E0009D5E91 /* LaunchScreen.storyboard */,
+				47035059276669E0009D5E91 /* Info.plist */,
+			);
+			path = Skillbox_diploma_step3;
+			sourceTree = "<group>";
+		};
+		47035061276669E0009D5E91 /* Skillbox_diploma_step3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47035062276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift */,
+			);
+			path = Skillbox_diploma_step3Tests;
+			sourceTree = "<group>";
+		};
+		4703506B276669E1009D5E91 /* Skillbox_diploma_step3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4703506C276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift */,
+				4703506E276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift */,
+			);
+			path = Skillbox_diploma_step3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47035047276669DC009D5E91 /* Skillbox_diploma_step3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47035072276669E1009D5E91 /* Build configuration list for PBXNativeTarget "Skillbox_diploma_step3" */;
+			buildPhases = (
+				47035044276669DC009D5E91 /* Sources */,
+				47035045276669DC009D5E91 /* Frameworks */,
+				47035046276669DC009D5E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skillbox_diploma_step3;
+			productName = Skillbox_diploma_step3;
+			productReference = 47035048276669DD009D5E91 /* Skillbox_diploma_step3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4703505D276669E0009D5E91 /* Skillbox_diploma_step3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47035075276669E1009D5E91 /* Build configuration list for PBXNativeTarget "Skillbox_diploma_step3Tests" */;
+			buildPhases = (
+				4703505A276669E0009D5E91 /* Sources */,
+				4703505B276669E0009D5E91 /* Frameworks */,
+				4703505C276669E0009D5E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47035060276669E0009D5E91 /* PBXTargetDependency */,
+			);
+			name = Skillbox_diploma_step3Tests;
+			productName = Skillbox_diploma_step3Tests;
+			productReference = 4703505E276669E0009D5E91 /* Skillbox_diploma_step3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47035067276669E1009D5E91 /* Skillbox_diploma_step3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47035078276669E1009D5E91 /* Build configuration list for PBXNativeTarget "Skillbox_diploma_step3UITests" */;
+			buildPhases = (
+				47035064276669E1009D5E91 /* Sources */,
+				47035065276669E1009D5E91 /* Frameworks */,
+				47035066276669E1009D5E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4703506A276669E1009D5E91 /* PBXTargetDependency */,
+			);
+			name = Skillbox_diploma_step3UITests;
+			productName = Skillbox_diploma_step3UITests;
+			productReference = 47035068276669E1009D5E91 /* Skillbox_diploma_step3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47035040276669DC009D5E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					47035047276669DC009D5E91 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4703505D276669E0009D5E91 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 47035047276669DC009D5E91;
+					};
+					47035067276669E1009D5E91 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 47035047276669DC009D5E91;
+					};
+				};
+			};
+			buildConfigurationList = 47035043276669DC009D5E91 /* Build configuration list for PBXProject "Skillbox_diploma_step3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4703503F276669DC009D5E91;
+			productRefGroup = 47035049276669DD009D5E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47035047276669DC009D5E91 /* Skillbox_diploma_step3 */,
+				4703505D276669E0009D5E91 /* Skillbox_diploma_step3Tests */,
+				47035067276669E1009D5E91 /* Skillbox_diploma_step3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47035046276669DC009D5E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47035058276669E0009D5E91 /* LaunchScreen.storyboard in Resources */,
+				47035055276669E0009D5E91 /* Assets.xcassets in Resources */,
+				47035053276669DD009D5E91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4703505C276669E0009D5E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47035066276669E1009D5E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47035044276669DC009D5E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47035050276669DD009D5E91 /* ViewController.swift in Sources */,
+				4703504C276669DD009D5E91 /* AppDelegate.swift in Sources */,
+				4703504E276669DD009D5E91 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4703505A276669E0009D5E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47035063276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47035064276669E1009D5E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4703506D276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift in Sources */,
+				4703506F276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47035060276669E0009D5E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47035047276669DC009D5E91 /* Skillbox_diploma_step3 */;
+			targetProxy = 4703505F276669E0009D5E91 /* PBXContainerItemProxy */;
+		};
+		4703506A276669E1009D5E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47035047276669DC009D5E91 /* Skillbox_diploma_step3 */;
+			targetProxy = 47035069276669E1009D5E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47035051276669DD009D5E91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47035052276669DD009D5E91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47035056276669E0009D5E91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47035057276669E0009D5E91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47035070276669E1009D5E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47035071276669E1009D5E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47035073276669E1009D5E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VWFU6AND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skillbox_diploma_step3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "roman.sundurov.work.Skillbox-diploma-step3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47035074276669E1009D5E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VWFU6AND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skillbox_diploma_step3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "roman.sundurov.work.Skillbox-diploma-step3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47035076276669E1009D5E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VWFU6AND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "roman.sundurov.work.Skillbox-diploma-step3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skillbox_diploma_step3.app/Skillbox_diploma_step3";
+			};
+			name = Debug;
+		};
+		47035077276669E1009D5E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VWFU6AND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "roman.sundurov.work.Skillbox-diploma-step3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skillbox_diploma_step3.app/Skillbox_diploma_step3";
+			};
+			name = Release;
+		};
+		47035079276669E1009D5E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VWFU6AND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "roman.sundurov.work.Skillbox-diploma-step3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skillbox_diploma_step3;
+			};
+			name = Debug;
+		};
+		4703507A276669E1009D5E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VWFU6AND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "roman.sundurov.work.Skillbox-diploma-step3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skillbox_diploma_step3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47035043276669DC009D5E91 /* Build configuration list for PBXProject "Skillbox_diploma_step3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47035070276669E1009D5E91 /* Debug */,
+				47035071276669E1009D5E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47035072276669E1009D5E91 /* Build configuration list for PBXNativeTarget "Skillbox_diploma_step3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47035073276669E1009D5E91 /* Debug */,
+				47035074276669E1009D5E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47035075276669E1009D5E91 /* Build configuration list for PBXNativeTarget "Skillbox_diploma_step3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47035076276669E1009D5E91 /* Debug */,
+				47035077276669E1009D5E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47035078276669E1009D5E91 /* Build configuration list for PBXNativeTarget "Skillbox_diploma_step3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47035079276669E1009D5E91 /* Debug */,
+				4703507A276669E1009D5E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47035040276669DC009D5E91 /* Project object */;
+}
