@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		4703504C276669DD009D5E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504B276669DD009D5E91 /* AppDelegate.swift */; };
 		4703504E276669DD009D5E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504D276669DD009D5E91 /* SceneDelegate.swift */; };
-		47035050276669DD009D5E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504F276669DD009D5E91 /* ViewController.swift */; };
+		47035050276669DD009D5E91 /* VCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703504F276669DD009D5E91 /* VCMap.swift */; };
 		47035053276669DD009D5E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47035051276669DD009D5E91 /* Main.storyboard */; };
 		47035055276669E0009D5E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47035054276669E0009D5E91 /* Assets.xcassets */; };
 		47035058276669E0009D5E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47035056276669E0009D5E91 /* LaunchScreen.storyboard */; };
 		47035063276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47035062276669E0009D5E91 /* Skillbox_diploma_step3Tests.swift */; };
 		4703506D276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703506C276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift */; };
 		4703506F276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703506E276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift */; };
+		4703507E27666F09009D5E91 /* VCRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703507D27666F09009D5E91 /* VCRoute.swift */; };
+		47035080276683BA009D5E91 /* MapVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703507F276683BA009D5E91 /* MapVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		47035048276669DD009D5E91 /* Skillbox_diploma_step3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbox_diploma_step3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703504B276669DD009D5E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4703504D276669DD009D5E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4703504F276669DD009D5E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4703504F276669DD009D5E91 /* VCMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMap.swift; sourceTree = "<group>"; };
 		47035052276669DD009D5E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47035054276669E0009D5E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47035057276669E0009D5E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		47035068276669E1009D5E91 /* Skillbox_diploma_step3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skillbox_diploma_step3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703506C276669E1009D5E91 /* Skillbox_diploma_step3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox_diploma_step3UITests.swift; sourceTree = "<group>"; };
 		4703506E276669E1009D5E91 /* Skillbox_diploma_step3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox_diploma_step3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4703507D27666F09009D5E91 /* VCRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRoute.swift; sourceTree = "<group>"; };
+		4703507F276683BA009D5E91 /* MapVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				4703504B276669DD009D5E91 /* AppDelegate.swift */,
 				4703504D276669DD009D5E91 /* SceneDelegate.swift */,
-				4703504F276669DD009D5E91 /* ViewController.swift */,
+				4703504F276669DD009D5E91 /* VCMap.swift */,
+				4703507F276683BA009D5E91 /* MapVIew.swift */,
+				4703507D27666F09009D5E91 /* VCRoute.swift */,
 				47035051276669DD009D5E91 /* Main.storyboard */,
 				47035054276669E0009D5E91 /* Assets.xcassets */,
 				47035056276669E0009D5E91 /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47035050276669DD009D5E91 /* ViewController.swift in Sources */,
+				4703507E27666F09009D5E91 /* VCRoute.swift in Sources */,
+				47035050276669DD009D5E91 /* VCMap.swift in Sources */,
+				47035080276683BA009D5E91 /* MapVIew.swift in Sources */,
 				4703504C276669DD009D5E91 /* AppDelegate.swift in Sources */,
 				4703504E276669DD009D5E91 /* SceneDelegate.swift in Sources */,
 			);
