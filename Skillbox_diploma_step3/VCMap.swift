@@ -35,8 +35,8 @@ class VCMap: UIViewController {
     
 
     override func viewWillLayoutSubviews() {
-      super.viewWillLayoutSubviews()
-      updateMinZoomScaleForSize(view.bounds.size)
+        super.viewWillLayoutSubviews()
+        updateMinZoomScaleForSize(view.safeAreaLayoutGuide.layoutFrame.size)
     }
 
     
@@ -63,15 +63,17 @@ extension VCMap: UIScrollViewDelegate {
     }
 
     func updateConstraintsForSize(_ size: CGSize) {
-        
+
         let yOffset = max(0, (size.height - imageView.frame.height) / 2)
         mapViewTopConstraint.constant = yOffset
         mapViewBottomConstraint.constant = yOffset
-        //4
+//
         let xOffset = max(0, (size.width - imageView.frame.width) / 2)
         mapViewLeadingConstraint.constant = xOffset
         mapViewTrailingConstraint.constant = xOffset
-
+//
+        print("yyy= \(yOffset), xxx= \(xOffset)")
+        
         view.layoutIfNeeded()
     }
 
