@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NTy-Lq-vle">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NTy-Lq-vle">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,22 +20,20 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover" translatesAutoresizingMaskIntoConstraints="NO" id="6Dk-HJ-jtW">
-                                        <rect key="frame" x="0.0" y="0.0" width="1512" height="1512"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1512" id="2U8-7S-E8n"/>
-                                            <constraint firstAttribute="width" constant="1512" id="5Uh-8O-pQN"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="3024" height="3024"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="769" id="1Zo-uG-xD3"/>
-                                    <constraint firstAttribute="trailing" secondItem="6Dk-HJ-jtW" secondAttribute="trailing" id="6Se-gb-fuy"/>
-                                    <constraint firstAttribute="bottom" secondItem="6Dk-HJ-jtW" secondAttribute="bottom" id="M9d-EG-2v8"/>
-                                    <constraint firstItem="6Dk-HJ-jtW" firstAttribute="top" secondItem="Ezk-aX-FMd" secondAttribute="top" id="gci-jf-ngc"/>
-                                    <constraint firstItem="6Dk-HJ-jtW" firstAttribute="leading" secondItem="Ezk-aX-FMd" secondAttribute="leading" id="ouT-zA-drE"/>
+                                    <constraint firstItem="vMh-fW-IhU" firstAttribute="trailing" secondItem="6Dk-HJ-jtW" secondAttribute="trailing" id="6Se-gb-fuy"/>
+                                    <constraint firstItem="vMh-fW-IhU" firstAttribute="bottom" secondItem="6Dk-HJ-jtW" secondAttribute="bottom" id="M9d-EG-2v8"/>
+                                    <constraint firstItem="6Dk-HJ-jtW" firstAttribute="top" secondItem="vMh-fW-IhU" secondAttribute="top" id="gci-jf-ngc"/>
+                                    <constraint firstItem="6Dk-HJ-jtW" firstAttribute="leading" secondItem="vMh-fW-IhU" secondAttribute="leading" id="ouT-zA-drE"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="vMh-fW-IhU"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Iaa-kl-Ob2"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0eo-cN-nCR"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -48,6 +46,14 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="T0f-NT-kK4"/>
+                    <connections>
+                        <outlet property="imageView" destination="6Dk-HJ-jtW" id="4TH-6d-DKY"/>
+                        <outlet property="mapViewBottomConstraint" destination="M9d-EG-2v8" id="IZo-4h-yY8"/>
+                        <outlet property="mapViewLeadingConstraint" destination="ouT-zA-drE" id="7BC-YZ-NKD"/>
+                        <outlet property="mapViewTopConstraint" destination="gci-jf-ngc" id="3Ix-AE-keO"/>
+                        <outlet property="mapViewTrailingConstraint" destination="6Se-gb-fuy" id="CgJ-6D-DI1"/>
+                        <outlet property="scrollView" destination="Ezk-aX-FMd" id="zfa-hE-ayX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,7 +83,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u3D-Fh-3gr">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hui-Lb-OSW"/>
@@ -110,6 +116,9 @@
     </scenes>
     <resources>
         <image name="cover" width="3024" height="3024"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
